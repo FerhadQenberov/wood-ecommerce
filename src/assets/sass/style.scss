@@ -1,0 +1,54 @@
+@import "mixin.scss";
+@import "route.scss";
+@import "header.scss";
+@import "slider";
+
+@import "dropdown";
+@import "burgerMenu";
+@import "main";
+@import "footer";
+@import "login";
+@import "promotions";
+@import "stores";
+@import "contacts";
+@import "AllCategory";
+@import "Details";
+
+@import "cardDetails";
+@import "addToCart";
+@import "shopCart";
+
+.title{
+    font-weight: 900 !important;
+}
+
+.dark{
+    :root {
+        --blue:red !important;
+        --white: #ffffff;
+        --black: #000;
+        --btnColor: #dadada;
+        --mainColor: rgb(246, 246, 246);
+        --cardGray: rgba(0, 0, 0, 0.25);
+        --fontBlack: #101010e6;
+        --iconColor: #eabe12;
+        --whiteBlue: #e6eefd;
+        --submenu: #848484;
+        --brd: rgba(0, 0, 0, 0.1);
+        --pColor:#7777;}
+    *{
+        background-color: black !important;
+        color: white !important;
+    }
+
+  
+    .slider{
+        .s1{
+            background-color: transparent !important;
+           
+        }
+
+    }
+   
+}  
+

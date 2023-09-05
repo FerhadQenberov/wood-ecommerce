@@ -1,0 +1,39 @@
+@mixin between{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@mixin between2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin f-betwen{
+    display: flex;
+ 
+    justify-content: space-between;
+}
+
+@mixin f-around{
+    display: flex;
+   
+    justify-content: space-around;
+}
+@mixin f-center{
+    display: flex;
+   
+   align-items: center;
+}
+
+@mixin center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin evenly{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+

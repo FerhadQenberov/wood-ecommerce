@@ -1,0 +1,131 @@
+footer{
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+   background-color:var(--white);
+ 
+    .footer-wrapper{
+        padding: 20px;
+        .footer-top{
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 1px solid rgba(0,0,0,0.1);;
+            
+          
+            .item{
+                background-color: var(--white);
+                width: 300px;
+             
+                margin: 10px;
+               
+                h4{
+                    font-size: 18px;
+                }
+                i{
+                    background-color: var(--blue);
+                    color: var(--white);
+                    border-radius: 20px;
+                    font-size: 16px;
+                }
+                p{
+                  color: var(--pColor);
+                  font-size: 14px;
+                }
+            }
+        }
+
+        .footer-bottom{
+            padding: 30px 0;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(0,0,0,0.1);;
+
+            ul{
+                padding: 0;
+            }
+            .logo{
+                img{
+                    margin-right: 10px;
+                }
+                .sosial{
+                    display: flex;
+                    justify-content: space-around;
+                    width: 200px;
+                    span{
+                        border-radius: 50%;
+                      
+                    }
+                }
+              
+                width:350px;
+                li{
+                    padding: 10px 0px ;
+                }
+                p{
+                    color: #7777;
+                    font-size: 17px;
+                    padding: 10px 0px;
+                }
+                h2{
+                    font-size: 18px;
+                    color: var(--black);
+                }
+            }
+            .category{
+                h6{
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                li{
+                    color: var(--pColor);
+                    font-size: 16px;
+                    margin-top: 10px;
+                }
+
+
+            }
+            .useful-links{
+                h6{
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            
+                a{
+                    color: #7777;
+                }
+                li{
+                   
+                    font-size: 16px;
+                    margin-top: 10px;
+                }
+
+
+            }
+            .blog{
+                h6{
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                li{
+                    color: #7777;
+                    font-size: 16px;
+                    margin-top: 10px;
+                }
+
+
+            }
+        }
+        .paymnet{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px;
+            p{
+                font-size: 15px;
+            }
+        }
+       
+    }
+
+}

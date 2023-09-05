@@ -1,0 +1,351 @@
+.slider_page {
+  padding: 20px 0px 30px 0px;
+  position: relative;
+
+  width: 100%;
+  .slider {
+    .swiper {
+      border-radius: 10px;
+
+      .swiper-slide {
+        position: relative;
+        height: 500px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+
+        .s1 {
+          position: absolute;
+          text-align: center;
+          background-color: transparent !important;
+     
+          top: 24px;
+          left: 150px;
+          h4 {
+            color: var(--white);
+            font-weight: 700;
+            background-color: transparent !important;
+       
+            font-size: 37px;
+          }
+          p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 15px;
+          
+            background-color: transparent !important;
+          }
+          button {
+            border: none;
+            
+            width: 140px;
+            height: 40px;
+            padding: 8px 0px;
+            background-color: var(--blue );
+            color: var(--white);
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 7px;
+          }
+        }
+        .s2 {
+          margin-left: 20px;
+          position: absolute;
+
+          top: 24px;
+          left: 38;
+          h4 {
+            color: var(--white);
+            font-weight: 700;
+            font-size: 37px;
+          }
+          p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 15px;
+          }
+          button {
+            border: none;
+            width: 140px;
+            height: 40px;
+            padding: 8px 0px;
+            background-color: var(--blue);
+            color: var(--white);
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 7px;
+          }
+        }
+        .s3 {
+          margin-left: 20px;
+          position: absolute;
+
+          top: 24px;
+          left: 38;
+          h4 {
+            color: var(--white);
+            font-weight: 700;
+            font-size: 37px;
+          }
+          p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 15px;
+          }
+          button {
+            border: none;
+            width: 140px;
+            height: 40px;
+            padding: 8px 0px;
+            background-color: var(--blue);
+            color: var(--white);
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 7px;
+          }
+        }
+      }
+    }
+  }
+  .auro {
+    background-image: url("../img/logitech-aurora-headset.jpg");
+    background-position: right;
+    background-size: cover;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    .auro-clock {
+      width: 100%;
+
+      padding: 20px;
+
+      .aurora-banner {
+        h4 {
+          line-height: 38px;
+          font-size: 28px;
+          font-weight: 700;
+          color: var(--white);
+        }
+      }
+      .wd-timer {
+        padding: 10px 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 300px;
+        div {
+          background-color: var(--white);
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          flex-direction: column;
+          padding: 5px;
+
+          width: 50px;
+          h6 {
+            font-weight: 700;
+
+            margin-bottom: 0px;
+          }
+          p {
+            margin-bottom: 0px;
+            font-size: 16px;
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+  .dual {
+    position: relative;
+    min-height: 180px;
+    object-fit: cover;
+
+    img {
+      width: 100%;
+      &:hover {
+        transform: scale(1.2);
+        transition: 1s ease-in-out;
+      }
+    }
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    .dual-text {
+      position: absolute;
+      margin-left: 8px;
+      left: 10px;
+      top: 30px;
+      h6 {
+        color: var(--white);
+        font-weight: 700;
+      }
+      p {
+        color: var(--white);
+        font-size: 13px;
+      }
+      button {
+        width: 120px;
+        border: none;
+        border-radius: 10px;
+        font-size: 12px;
+        padding: 10px;
+        background-color: var(--blue);
+      }
+    }
+  }
+  .cameras {
+    min-height: 180px;
+    overflow: hidden;
+    position: relative;
+    img {
+      width: 100%;
+      &:hover {
+        transform: scale(1.2);
+        transition: all 1s ease-in;
+      }
+    }
+
+    border-radius: 10px;
+
+    .cameras-text {
+      position: absolute;
+      margin-left: 8px;
+      left: 20px;
+      top: 30px;
+      h6 {
+        color: var(--white);
+        font-weight: 700;
+      }
+      p {
+        color: var(--white);
+        font-size: 13px;
+      }
+      button {
+        width: 120px;
+        border: none;
+        border-radius: 10px;
+        font-size: 12px;
+        padding: 10px;
+        background-color: var(--blue);
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .slider_page {
+    .row {
+      .slider-con {
+        @include f-betwen();
+        flex-direction: column;
+        height: 60vh;
+
+        .swiper-slide {
+         height: auto;
+          img {
+            width: 100% !important;
+         
+            height: 400px;
+            object-fit: cover;
+          }
+          .s1 {
+            position: absolute;
+            text-align: center;
+            top: 70px;
+            left: 30px;
+
+            h4 {
+              font-size: 24px;
+            }
+          }
+          .s2 {
+            position: absolute;
+            text-align: center;
+            top: 70px;
+            left: 30px;
+
+            h4 {
+              font-size: 24px;
+            }
+          }
+          .s3 {
+            position: absolute;
+            text-align: center;
+            top: 70px;
+            left: 30px;
+
+            h4 {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+      .auro{
+        min-width: 400px;
+      }
+    }
+    
+
+   
+  }
+}
+// @media screen and (min-width: 768px) {
+//   .slider_page {
+//     .row {
+//       .slider-con {
+//         @include f-betwen();
+//         flex-direction: column;
+//         height: 40vh;
+
+//         .swiper-slide {
+//           img {
+//             width: 100%;
+//             height: 400px;
+//             object-fit: cover;
+//           }
+//           .s1 {
+//             position: absolute;
+//             text-align: center;
+//             top: 70px;
+//             left: 30px;
+
+//             h4 {
+//               font-size: 24px;
+//             }
+//           }
+//           .s2 {
+//             position: absolute;
+//             text-align: center;
+//             top: 70px;
+//             left: 30px;
+
+//             h4 {
+//               font-size: 24px;
+//             }
+//           }
+//           .s3 {
+//             position: absolute;
+//             text-align: center;
+//             top: 70px;
+//             left: 30px;
+
+//             h4 {
+//               font-size: 24px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .auro{
+//       min-width: 400px;
+//     }
+//     .dual{
+//       min-height: 300px;
+//       overflow: hidden;
+//     }
+//   }
+// }

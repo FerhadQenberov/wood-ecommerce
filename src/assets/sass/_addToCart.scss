@@ -1,0 +1,148 @@
+.offcanvas {
+  width: 350px !important;
+  .offcanvas-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    height: 65px !important;
+    h5 {
+      font-family: "Lexend Deca (wd)", Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      color: black;
+      font-size: 17px;
+    }
+    button {
+      font-size: 12px;
+    }
+  }
+  .offcanvas-body {
+    ul {
+      padding: 5px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+
+      .shop-item {
+        background-color: var(--white);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        transition: 700ms;
+        &:hover {
+          background-color: var(--mainColor);
+        }
+
+        .shop-value {
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+      }
+      .shop-title {
+        h6 {
+          color: var(--black);
+          font-weight: 700;
+          font-size: 14px;
+        }
+        p {
+          color: var(--submenu);
+        }
+        
+      }
+      .btn-close {
+        font-size: 12px;
+      }
+
+      .subTotal{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+        border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+        .total-title{
+            color: var(--black);
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .total-price{
+            color: var(--blue);
+            font-size: 19px;
+            font-weight: 600;
+        }
+      
+
+      }
+      .btn-group{
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+        justify-content: space-between;
+       
+        .view{
+          background-color: rgb(225,235,255);
+          color: var(--blue);
+          font-weight: 700;
+          border: none !important;
+          font-size: 13px;
+          height: 40px;
+          width: 100%;
+          border-radius: 6px;
+         
+        }
+        .check{ background-color:var(--blue);
+            color: var(--white);
+            font-weight: 700;
+            border: none !important;
+            font-size: 13px;
+            width: 100%;
+            height: 40px;
+            border-radius: 6px;
+
+        }
+    }
+    }
+  }
+}
+.control {
+  display: flex;
+  margin-bottom: 10px;
+  input{
+    width: 50px;
+    height: 32px;
+    outline-style: none;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+   
+    border-radius: 0px !important;
+    z-index: 10000;
+    position: static;
+  
+   }
+
+  
+
+  button {
+    border: none;
+    width: 25px;
+    height: 32px;
+   
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    
+
+   
+  }
+  .increment {
+    border-radius: 8px 0px 0px 8px;
+    background-color: var(--blue) !important;
+  }
+  .decrement {
+    border-radius: 0px 8px 8px 0px;
+    background-color: var(--blue) !important;
+  
+    
+  }
+  
+
+}

@@ -1,0 +1,133 @@
+.stores {
+  background-color: var(--mainColor);
+  padding: 20px 0px;
+  .visit-store {
+    background-color: var(--blue);
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+  
+ 
+   
+  
+    
+    padding: 30px;
+    border-radius: 10px;
+
+    .visit-left {
+      h4 {
+        line-height: 44px;
+        font-size: 34px;
+        color: var(--white);
+        font-weight: 700;
+      }
+      p{
+        font-size: 17px;
+        color: var(--white);
+      }
+
+      .visit{
+        display: flex;
+       
+        justify-content: space-between;
+        span{
+            background-color: rgba(255,255,255,0.1);
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+          
+          
+            color: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+
+            h2{font-size: 14px;
+            color: var(--white);}
+        }
+      }
+    }
+    
+    
+  }
+  .visit-blogs{
+    background-color: var(--white);
+    padding: 30px 10px;
+    p{
+        font-size: 14px;
+    }
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .card{
+        border: none;
+        img{
+            border-radius: 20px;
+    
+        }
+      .card-body{
+        h2{font-size: 24px;}
+      }
+    }
+   
+   }
+}
+
+
+@media screen and (max-width:995px) {
+    .stores{
+        .visit-store{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 400px;
+
+            .visit-left {
+                h4 {
+                  line-height: 24px;
+                  font-size: 24px;
+                  color: var(--white);
+                  font-weight: 700;
+                }
+                p{
+                  font-size: 14px;
+                  color: var(--white);
+                }
+          
+                .visit{
+                  display: flex;
+                  flex-direction: column;
+                 
+                  justify-content: space-between;
+                  span{
+                      background-color: rgba(255,255,255,0.1);
+                      margin: 10px;
+                      display: flex;
+                      flex-direction: column;
+                    
+                    
+                      color: var(--white);
+                      padding: 40px;
+                      border-radius: 10px;
+          
+                      h2{font-size: 14px;
+                      color: var(--white);}
+                  }
+                }
+              }
+              .visit-right{
+                object-fit: cover;
+                min-width: 200px;
+              }
+        }
+        .visit-blogs{
+            background-color: var(--white);
+           
+        }
+
+    }
+    
+}

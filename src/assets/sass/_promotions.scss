@@ -1,0 +1,53 @@
+.promotions {
+  background-color: var(--mainColor);
+  .pro-subTitle {
+    padding: 20px 0px;
+
+    h4 {
+      font-size: 13px;
+      color: #a5a5a5;
+    }
+    h2 {
+      font-size: 24px;
+      color: var(--black);
+    }
+  }
+  .promo{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  }
+  .row {
+
+    .apple-card {
+      width: 440px;
+      height: 300px;
+      
+      overflow: hidden;
+  @include between2();
+
+
+      .apple-title {
+        img {
+          object-fit: cover;
+          border-radius: 10px;
+          width: 100%;
+        
+        }
+        h2 {
+          color: var(--white);
+          font-size: 20px;
+        }
+        button {
+          border: none;
+          background-color: var(--blue);
+          font-size: 12px;
+          width: 100px;
+          height: 40px;
+          border-radius: 7px;
+          color: var(--white);
+        }
+      }
+    }
+  }
+}

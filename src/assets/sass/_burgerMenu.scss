@@ -1,0 +1,39 @@
+.offcanvas{
+    width: 300px !important;
+
+}
+.btn_group{
+    background-color: var(--white);
+    display: flex;
+  
+    width: 300px;
+    border-bottom: 1px solid var(--brd) !important;
+  
+   
+}
+.offcanvas-header {
+    padding: 0px !important;
+}
+.offcanvas-body{
+    padding: 0 !important;
+    overflow-y: auto;
+}
+
+#btn_burger{
+    border: none;
+background-color: transparent;
+text-decoration: none;
+
+margin: 0px 3px 0px 0px;
+
+
+color: var(--black);
+padding: 18px 15px;
+text-align: center;
+font-size: 18px;
+
+display: block;
+width: 100%;
+
+
+}

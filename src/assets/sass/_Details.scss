@@ -1,0 +1,210 @@
+.details {
+  height: auto;
+  background-color: var(--mainColor);
+
+  .breadcrumb {
+    padding: 20px 0px;
+    .active {
+      color: var(--black) !important;
+
+      background-color: white !important;
+      font-weight: 700;
+    }
+    .breadcrumb-item {
+      font-size: 14px;
+
+      a {
+        color: var(--submenu);
+      }
+    }
+  }
+  .categories-wrap {
+    background-color: var(--white);
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+   
+   
+   
+
+    .card-category {
+      text-align: center;
+      h6 {
+        font-size: 15px;
+      }
+      p {
+        font-size: 13px;
+        color: var(--submenu);
+      }
+    }
+
+    img {
+      width: 170px;
+      height: 160px;
+    }
+  }
+  .filter-text{
+    font-size: 19px;
+    padding: 20px 0px;
+  }
+  .ranger-filter{
+    width: 500px;
+    background-color: var(--mainColor);
+    input{
+      color: red;
+    }
+    font-size: 20px;
+
+  }
+
+  .filter {
+    $midnight: #fff;
+    $clouds: black;
+    // General
+    body {
+      color: $midnight;
+      background: $clouds;
+      padding: 0 1em 1em;
+    }
+    h1 {
+      margin: 0;
+      line-height: 2;
+      text-align: center;
+    }
+    h2 {
+      margin: 0 0 0.5em;
+      font-weight: normal;
+    }
+    input {
+      position: absolute;
+      opacity: 0;
+      z-index: -1;
+    }
+    // Layout
+    .row {
+      display: flex;
+      .col {
+        flex: 1;
+        &:last-child {
+          margin-left: 1em;
+        }
+      }
+    }
+    /* Accordion styles */
+    .tabs {
+      border-radius: 8px;
+      overflow: hidden;
+    
+      border-radius: 10px;
+    }
+    .tab {
+      width: 100%;
+      
+
+      overflow: hidden;
+      &-label {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+        padding: 1em;
+        background: $midnight;
+
+        cursor: pointer;
+        /* Icon */
+        &:hover {
+          background: darken($midnight, 10%);
+        }
+        &::after {
+          content: "\276F";
+          width: 1em;
+          height: 1em;
+          text-align: center;
+          transition: all 0.35s;
+        }
+      }
+      &-content {
+        max-height: 0;
+        padding: 0 1em;
+        color: $midnight;
+        background-color: var(--mainColor);
+        transition: all 0.35s;
+        color: black;
+        li{
+        &:hover{
+          cursor: pointer;
+        }
+        }
+      }
+    
+      &-close {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1em;
+        font-size: 0.75em;
+        background: $midnight;
+        cursor: pointer;
+        &:hover {
+          background: darken($midnight, 10%);
+        }
+      }
+    }
+
+    // :checked
+    input:checked {
+      + .tab-label {
+        background: darken($midnight, 10%);
+        &::after {
+          transform: rotate(90deg);
+        }
+      }
+      ~ .tab-content {
+        max-height: 100vh;
+        padding: 1em;
+      }
+    }
+  }
+ 
+
+  .sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    
+    select{
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+ .alldata-filter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  .alldata{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+ 
+  nav{
+    margin-top: 10px;
+  }
+
+
+ 
+  .pagination{
+    margin-bottom: 0px !important;
+    li{
+    a{
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    }
+
+   }
+ }
+}

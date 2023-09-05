@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.con {
+  max-width: 90%;
+}
+
+
+:root {
+  --blue: #1c61e7;
+  --white: #ffffff;
+  --black: #000;
+  --btnColor: #dadada;
+  --mainColor: rgb(246, 246, 246);
+  --cardGray: rgba(0, 0, 0, 0.25);
+  --fontBlack: #101010e6;
+  --iconColor: #eabe12;
+  --whiteBlue: #e6eefd;
+  --submenu: #848484;
+  --brd: rgba(0, 0, 0, 0.1);
+  --pColor:#7777;}
+
+
+
+
+.dark {
+  --bgColor: #000 !important;
+ 
+}
+.light {
+  --bgColor: #fff !important;
+}
+
+.container {
+  max-width: 90% !important;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+.active {
+  background-color: none;
+}
+.offcanvas-backdrop {
+  opacity: 0.3 !important;
+}

@@ -1,0 +1,50 @@
+{
+  "promotions": [
+    {
+      "id": 1,
+      "title": "Apple Shopping event",
+      "img": "/assets/promotion/1.jpg"
+    },
+
+    {
+      "id": 2,
+      "title": "Apple Shopping event",
+      "img": "/assets/promotion/2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Apple Shopping event",
+      "img": "/assets/promotion/3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Apple Shopping event",
+      "img": "/assets/promotion/4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Apple Shopping event",
+      "img": "/assets/promotion/5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Apple Shopping event",
+      "img": "/assets/promotion/6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Apple Shopping event",
+      "img": "/assets/promotion/7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Apple Shopping event",
+      "img": "/assets/promotion/8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Apple Shopping event",
+      "img": "/assets/promotion/9.jpg"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+    "header":{
+        "0":"All Category",
+        "1":"PROMOTIONS",
+        "2":"Blogs",
+        "3":"OUR CONTACTS"
+      
+    },
+    "slider":{
+        "0":"Apple Shopping Event",
+        "1":"Shop great deals on MackBook, Ipad, Iphone and more",
+        "2":"Shop Now",
+        "3":"The new Google Pixel 7",
+        "4":"Shop great deals on MackBook, Ipad, Iphone and more",
+        "5":"Pre-order now",
+        "6":"Discount on all Smart appliances up to 25%",
+        "7":"Shop great deals on MackBook, Ipad, Iphone and more",
+        "8":"Aurora Headset",
+        "9":"Buy Now",
+        "10":"New Dual Sense",
+        "11":"For Playstation 5",
+        "12":"View Details",
+        "13":"New Dual Sense"
+    },
+    "categories":{
+        "0":"Popular Categories",
+        "1":"At a good Price",
+        "2":"Nothing Phone 1",
+        "3":"Buy Now"
+    },
+    "shopping":{
+       "0":"Apple Shopping Event",
+       "1":"Hurry and get discounts on all Apple devices up to 20%"
+    },
+    "articles":{
+        "0":"Our Articles"
+    },
+    "read":{
+        "0":"Online store of household appliances and electronics",
+        "1":"Then the question arises: where’s the content? Not there yet? That’s not so bad, there’s dummy copy to the rescue. But worse, what if the fish doesn’t fit in the can, the foot’s to big for the boot? Or to small? To short sentences, to many headings, images too large for the proposed design, or too small, or they fit in but it looks iffy for reasons. A client that’s unhappy for a reason is a problem, a client that’s unhappy though he or her can’t quite put a finger on it is worse. Chances are there wasn’t collaboration, communication, and checkpoints, there wasn’t a process agreed upon or specified with the granularity required. It’s content strategy gone awry right from the start. If that’s what you think how bout the other way around? How can you evaluate content without design? No typography, no colors, no layout, no styles, all those things that convey the important signals that go beyond the mere textual, hierarchies of information, weight, emphasis, oblique stresses, priorities, all those subtle cues that also have visual and emotional appeal to the reader."
+    },
+    "footer":{
+        "0":"Broadway Store",
+        "1":"1260 Broadway, San Francisco, CA 94109",
+        "2":"Condimentum adipiscing vel neque dis nam parturient orci at scelerisque.",
+        "3":"Subscribe",
+        "4":"Categories",
+        "5":"Smartphone",
+        "6":"Laptops",
+        "7":"Hardware",
+        "8":"Cameras",
+        "9":"HeadPhones",
+        "10":"Bathroom",
+        "11":"Useful Links",
+        "12":"Promotions",
+        "13":"Blogs",
+        "14":"Our Contacts",
+        "15":"Delivery & Return",
+        "16":"Outllet",
+        "17":"Blog",
+        "18":"Our Contacts",
+        "19":"Promotions",
+        "20":"Blogs",
+        "21":"Delivery & Return",
+        "22":"Outllet",
+        "23":"Download App on Mobile:",
+        "24":"15% discount on your first purchase",
+        "25":"WOODMART",
+        "26":"2023 CREATED BY ",
+        "27":"XTEMOS STUDIO.",
+        "28":"PREMIUM E-COMMERCE SOLUTIONS."
+    },
+    "article":{
+        "0":"How to choose a HI-FI stereo system",
+        "1":"Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum sempertit nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.",
+        "2":"Continue Reading",
+        "3":"Best Gaming Laptop Models",
+        "4":"Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum sempertit nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.",
+        "5":"Continue Reading",
+        "6":"Logitech POP Keys",
+        "7":"Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum sempertit nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.",
+        "8":"Continue Reading",
+        "9":"Cameras for Street Photography",
+        "10":"Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum sempertit nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.",
+        "11":"Continue Reading"
+    },
+    "wish":{
+        "1":"My Favorites",
+        "2":"CUSTOMER NAME",
+        "3":"AMOUNT DUE",
+        "4":"img",
+        "5":"REMOVE",
+        "6":"ADD",
+        "7":"ID"
+
+    }
+
+
+}

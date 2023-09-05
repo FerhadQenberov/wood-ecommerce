@@ -1,0 +1,105 @@
+{
+  "register": [
+    {
+      "email": "divacademy@gmail.com",
+      "confirmPassword": "Div123",
+      "password": "Div123",
+      "username": " div1",
+      "id": 1
+    },
+    {
+      "email": "gulsen@gmail.com",
+      "confirmPassword": "Gulsen123",
+      "password": "Gulsen123",
+      "username": "gulsen",
+      "id": 3
+    },
+    {
+      "email": "qenberovferhad@gmail.com",
+      "confirmPassword": "Ferhad123",
+      "password": "Ferhad123",
+      "username": " Ferhad",
+      "id": 5
+    },
+    {
+      "email": "admin@gmail.com",
+      "confirmPassword": "Yusif123",
+      "password": "Yusif123",
+      "username": " Ferhad",
+      "id": 9
+    },
+    {
+      "email": "admin@gmail.com",
+      "confirmPassword": "Yusif123",
+      "password": "Yusif123",
+      "username": " Ferhad",
+      "id": 10
+    },
+    {
+      "email": "axmednick@mail.ru",
+      "confirmPassword": "Baki123",
+      "password": "Baki123",
+      "username": " a",
+      "id": 11
+    },
+    {
+      "email": "admin@gmail.com",
+      "confirmPassword": "Baki123",
+      "password": "Baki123",
+      "username": " Baki",
+      "id": 12
+    },
+    {
+      "email": "guneltagiyev12345@gmail.com",
+      "confirmPassword": "Gunel123",
+      "password": "Gunel123",
+      "username": " az",
+      "id": 13
+    },
+    {
+      "email": "guneltagiyev12345@gmail.com",
+      "confirmPassword": "Gunel123",
+      "password": "Gunel123",
+      "username": " a",
+      "id": 14
+    },
+   
+    {
+      "email": "baki@gmail.com",
+      "confirmPassword": "Baku123",
+      "password": "Baku123",
+      "username": " Baku",
+      "id": 17
+    },
+ 
+    {
+      "email": "vvv@gmail.coom",
+      "confirmPassword": "Ferhad123",
+      "password": "Ferhad123",
+      "username": " vvvvvvv",
+      "id": 19
+    },
+    {
+      "email": "vvv@gmail.coom",
+      "confirmPassword": "Ferhad123",
+      "password": "Ferhad123",
+      "username": " vvvvvvv",
+      "id": 20
+    },
+    {
+      "email": "axmednick@mail.ru",
+      "confirmPassword": "Axmed123",
+      "password": "Axmed123",
+      "username": " baki",
+      "id": 21
+    },
+    {
+      "email": "axmednick@mail.ru",
+      "confirmPassword": "Axmed123",
+      "password": "Axmed123",
+      "username": " axmed",
+      "id": 22
+    }
+   
+  ]
+}
